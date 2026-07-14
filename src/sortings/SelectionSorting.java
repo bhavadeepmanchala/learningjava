@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class SelectionSorting {
     public static void main(String[] args) {
         int  [] arr = {1,7,3,5,2,9,4};
-        searching(arr);
+        sorting(arr);
         System.out.println(Arrays.toString(arr));
     }
-    static void searching (int [] arr){
+    static void sorting (int [] arr){
         for (int i = 0; i < arr.length; i++) {
             int last = arr.length - i -1;
             int maxIndex = getMaxIndex(arr , 0 , last );
