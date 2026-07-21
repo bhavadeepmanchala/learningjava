@@ -22,7 +22,9 @@ public class BubbleSorting {
                 }
             }
 
-        if(!swapped ) {
+        if(!swapped ) { /*if given array is already sorted or gets sorted in less than arr.length loops
+                            it doesn't undergo swap so the false will not update to break the loop to avoid unnecessary
+                             loops*/
             break;
         }
 
