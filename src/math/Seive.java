@@ -16,8 +16,7 @@ public class Seive {
                 }
             }
         }
-
-        for (int i = 2; i <= n; i++) {
+         for (int i = 2; i <= n; i++) {
             if (!primes[i]) {
                 System.out.print(i + " ");
             }
