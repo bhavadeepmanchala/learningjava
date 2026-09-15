@@ -3,8 +3,8 @@ package oops.oops_6;
 public class ObjectCloning {
     public static void main(String[] args) throws CloneNotSupportedException{
 
-        Human Deep = new Human(19,"Bhavdeep");
-        Human Twin = (Human)Deep.clone();
+        Humanbeing Deep = new Humanbeing(19,"Bhavdeep");
+        Humanbeing Twin = (Humanbeing)Deep.clone();
         System.out.println(Twin.age + " " + Twin.name);
 
     }
