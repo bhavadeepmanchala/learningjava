@@ -59,7 +59,7 @@ public class CustomStack {
     }
 
     public static void main(String[] args) throws StackException {
-        CustomStack stack = new CustomStack(7);
+        CustomStack stack = new DynamicStack(7);
 
         stack.push(9);
         stack.push(8);
