@@ -52,7 +52,7 @@ public class Bst {
         }
     }
 
-    public void populateSorted(int[] nums){
+    public void populateSorted(int[] nums) {
         populatedSorted(nums, 0, nums.length);
     }
 
@@ -75,7 +75,7 @@ public class Bst {
         if(node == null){
             return true;
         }
-        return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.left) && balanced(node.left) && balanced(node.right);
+        return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) &&  balanced(node.right);
     }
 
     public void display(){
